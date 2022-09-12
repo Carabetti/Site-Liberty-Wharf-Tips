@@ -1,0 +1,10 @@
+img {
+    width: 80%;
+    transform: translateY(450px);
+    opacity: 0;
+    transition: opacity 3s, transform 1s;
+    &.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

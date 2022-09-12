@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: rgb(47, 47, 47);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+img {
+  width: 80%;
+  transform: translateY(450px);
+  opacity: 0;
+  transition: opacity 3s, transform 1s;
+}
+img.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
